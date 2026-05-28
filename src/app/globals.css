@@ -37,9 +37,11 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes char-slide-in {
-  from { opacity: 0; transform: translateX(-20px); }
-  to   { opacity: 1; transform: translateX(0); }
+@keyframes dot-wave {
+  0%        { opacity: 0; transform: translateX(-8px); }
+  12%       { opacity: 1; transform: translateX(0); }
+  55%       { opacity: 1; }
+  70%, 100% { opacity: 0; }
 }
 
 @keyframes fade-in {
@@ -79,7 +81,7 @@ body {
     animation: scale-in 0.4s ease-out both;
   }
 
-  .animate-char-slide-in {
-    animation: char-slide-in 0.35s ease-out both;
+  .animate-dot-wave {
+    animation: dot-wave 1.8s ease-out infinite both;
   }
 }

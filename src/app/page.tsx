@@ -65,7 +65,7 @@ export default function HomePage() {
       <div className="w-full max-w-[480px]">
 
         {/* Heading */}
-        <div className="mb-6">
+        <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           <h1
             style={{
               fontSize: 'clamp(48px, 10vw, 72px)',
@@ -75,24 +75,23 @@ export default function HomePage() {
               fontWeight: 700,
             }}
           >
-            {'Coming Soon...'.split('').map((char, i) => (
+            Coming Soon
+            {[0, 1, 2].map(i => (
               <span
                 key={i}
-                className="animate-char-slide-in inline-block"
-                style={{ animationDelay: `${i * 0.04}s` }}
+                className="animate-dot-wave inline-block"
+                style={{ animationDelay: `${i * 0.4}s` }}
               >
-                {char === ' ' ? ' ' : char}
+                .
               </span>
             ))}
           </h1>
           <p
-            className="animate-fade-in-up"
             style={{
               fontSize: 'clamp(16px, 3vw, 20px)',
               color: '#0a0a0a',
               letterSpacing: '-0.5px',
               marginTop: '6px',
-              animationDelay: '0.6s',
             }}
           >
             by BMS
