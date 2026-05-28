@@ -49,6 +49,19 @@ body {
   to   { opacity: 1; }
 }
 
+@keyframes logo-emerge {
+  from {
+    opacity: 0;
+    transform: scale(0.72);
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0px);
+  }
+}
+
 @keyframes scale-in {
   from { opacity: 0; transform: scale(0.97); }
   to   { opacity: 1; transform: scale(1); }
@@ -83,5 +96,9 @@ body {
 
   .animate-dot-wave {
     animation: dot-wave 1.8s ease-out infinite both;
+  }
+
+  .animate-logo-emerge {
+    animation: logo-emerge 1.4s cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 }
