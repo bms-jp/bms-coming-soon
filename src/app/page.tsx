@@ -75,7 +75,7 @@ export default function HomePage() {
               fontWeight: 700,
             }}
           >
-            Coming Soon
+            Coming Soon...
           </h1>
           <p
             style={{
