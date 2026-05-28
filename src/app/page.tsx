@@ -83,20 +83,29 @@ export default function HomePage() {
         </div>
 
         {/* Heading */}
-        <h1
-          className="mb-6 font-bold animate-fade-in-up"
-          style={{
-            fontSize: 'clamp(40px, 8vw, 58px)',
-            lineHeight: 1.05,
-            letterSpacing: '-2px',
-            color: '#0a0a0a',
-            animationDelay: '0.1s',
-          }}
-        >
-          仕事を手放す、
-          <br />
-          会社を伸ばす。
-        </h1>
+        <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          <h1
+            style={{
+              fontSize: 'clamp(48px, 10vw, 72px)',
+              lineHeight: 1.0,
+              letterSpacing: '-2.5px',
+              color: '#0a0a0a',
+              fontWeight: 700,
+            }}
+          >
+            Coming Soon
+          </h1>
+          <p
+            style={{
+              fontSize: 'clamp(16px, 3vw, 20px)',
+              color: '#999',
+              letterSpacing: '-0.5px',
+              marginTop: '6px',
+            }}
+          >
+            by BMS
+          </p>
+        </div>
 
         {/* Sub messages */}
         <div className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.18s' }}>
@@ -135,7 +144,7 @@ export default function HomePage() {
                 <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
                 <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
               </svg>
-              {isGoogleLoading ? 'リダイレクト中...' : 'Googleで先行アクセス登録'}
+              {isGoogleLoading ? 'リダイレクト中...' : 'Googleで登録'}
             </span>
           </button>
 
@@ -202,7 +211,7 @@ export default function HomePage() {
               onMouseEnter={e => { if (!isDisabled) { (e.currentTarget as HTMLButtonElement).style.background = '#333'; (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1.005)' } }}
               onMouseLeave={e => { (e.currentTarget as HTMLButtonElement).style.background = '#111'; (e.currentTarget as HTMLButtonElement).style.transform = 'scale(1)' }}
             >
-              {isSubmitting ? '登録中...' : '先行アクセスを取得'}
+              {isSubmitting ? '登録中...' : '登録'}
             </button>
           </form>
         </div>
@@ -212,7 +221,7 @@ export default function HomePage() {
           className="mt-12 text-center text-[12px] animate-fade-in"
           style={{ color: '#ccc', animationDelay: '0.4s' }}
         >
-          © 2026 株式会社BMS
+          BMS
         </p>
       </div>
     </div>
