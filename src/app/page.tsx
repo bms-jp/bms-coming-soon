@@ -66,18 +66,14 @@ export default function HomePage() {
       {/* Section 1 — BMS badge */}
       <div className="h-[62vh] flex items-end justify-center pb-0">
         <div
-          className="flex items-center justify-center rounded-full animate-logo-emerge"
-          style={{
-            width: 340,
-            height: 340,
-            background: '#1e3a8a',
-          }}
+          className="flex items-center justify-center rounded-full animate-logo-emerge w-[240px] h-[240px] sm:w-[340px] sm:h-[340px]"
+          style={{ background: '#1e3a8a' }}
         >
           <span
             style={{
               color: '#fff',
               fontWeight: 800,
-              fontSize: 104,
+              fontSize: 'clamp(72px, 20vw, 104px)',
               letterSpacing: '-3px',
               lineHeight: 1,
             }}
