@@ -64,6 +64,29 @@ export default function HomePage() {
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-20">
       <div className="w-full max-w-[480px]">
 
+        {/* Logo badge */}
+        <div className="mb-8 animate-fade-in" style={{ animationDelay: '0s' }}>
+          <div
+            className="flex items-center justify-center rounded-full"
+            style={{
+              width: 64,
+              height: 64,
+              background: '#1e3a8a',
+            }}
+          >
+            <span
+              style={{
+                color: '#fff',
+                fontWeight: 700,
+                fontSize: 18,
+                letterSpacing: '-0.5px',
+              }}
+            >
+              BMS
+            </span>
+          </div>
+        </div>
+
         {/* Heading */}
         <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           <h1
