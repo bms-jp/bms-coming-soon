@@ -202,23 +202,13 @@ export default function HomePage() {
           style={{ animationDelay: '0.4s' }}
         >
           <p className="text-[12px]" style={{ color: '#ccc' }}>© BMS</p>
-          <div className="flex items-center justify-center gap-4 mt-2">
-            <a
-              href="/privacy"
-              className="text-[11px] transition-colors duration-150 hover:text-[#555]"
-              style={{ color: '#999' }}
-            >
-              プライバシーポリシー
-            </a>
-            <span className="text-[11px]" style={{ color: '#ddd' }}>|</span>
-            <a
-              href="/contact"
-              className="text-[11px] font-medium transition-colors duration-150 hover:text-[#555]"
-              style={{ color: '#999' }}
-            >
-              お問い合わせ
-            </a>
-          </div>
+          <a
+            href="/privacy"
+            className="inline-block mt-2 text-[11px] transition-colors duration-150 hover:text-[#888]"
+            style={{ color: '#ccc' }}
+          >
+            プライバシーポリシー
+          </a>
         </div>
       </div>
     </div>
