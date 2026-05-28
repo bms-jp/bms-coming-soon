@@ -61,31 +61,34 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-20">
-      <div className="w-full max-w-[480px]">
+    <div className="bg-white">
 
-        {/* Logo badge */}
-        <div className="mb-8 animate-fade-in" style={{ animationDelay: '0s' }}>
-          <div
-            className="flex items-center justify-center rounded-full"
+      {/* Section 1 — BMS badge full screen */}
+      <div className="h-screen flex items-center justify-center animate-fade-in">
+        <div
+          className="flex items-center justify-center rounded-full"
+          style={{
+            width: 180,
+            height: 180,
+            background: '#1e3a8a',
+          }}
+        >
+          <span
             style={{
-              width: 64,
-              height: 64,
-              background: '#1e3a8a',
+              color: '#fff',
+              fontWeight: 700,
+              fontSize: 52,
+              letterSpacing: '-1px',
             }}
           >
-            <span
-              style={{
-                color: '#fff',
-                fontWeight: 700,
-                fontSize: 18,
-                letterSpacing: '-0.5px',
-              }}
-            >
-              BMS
-            </span>
-          </div>
+            BMS
+          </span>
         </div>
+      </div>
+
+      {/* Section 2 — Coming Soon form */}
+      <div className="flex flex-col items-center justify-center px-6 py-20">
+      <div className="w-full max-w-[480px]">
 
         {/* Heading */}
         <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
@@ -242,6 +245,7 @@ export default function HomePage() {
             プライバシーポリシー
           </a>
         </div>
+      </div>
       </div>
     </div>
   )
