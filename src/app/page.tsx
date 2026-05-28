@@ -113,16 +113,6 @@ export default function HomePage() {
               </span>
             ))}
           </h1>
-          <p
-            style={{
-              fontSize: 'clamp(16px, 3vw, 20px)',
-              color: '#0a0a0a',
-              letterSpacing: '-0.5px',
-              marginTop: '6px',
-            }}
-          >
-            by BMS
-          </p>
         </div>
 
         {/* Launch date */}
