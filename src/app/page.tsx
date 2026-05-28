@@ -68,8 +68,8 @@ export default function HomePage() {
         <div
           className="flex items-center justify-center rounded-full"
           style={{
-            width: 260,
-            height: 260,
+            width: 340,
+            height: 340,
             background: '#1e3a8a',
           }}
         >
@@ -77,8 +77,8 @@ export default function HomePage() {
             style={{
               color: '#fff',
               fontWeight: 800,
-              fontSize: 80,
-              letterSpacing: '-2px',
+              fontSize: 104,
+              letterSpacing: '-3px',
               lineHeight: 1,
             }}
           >
