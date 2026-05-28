@@ -68,10 +68,10 @@ export default function ContactPage() {
               style={{ background: '#f0fdf4', border: '1px solid #bbf7d0' }}
             >
               <p className="font-semibold mb-1" style={{ color: '#15803d', fontSize: '15px' }}>
-                送信完了
+                送信しました
               </p>
               <p className="text-[13px]" style={{ color: '#4ade80' }}>
-                確認次第、ご連絡いたします。
+                お問い合わせありがとうございます。
               </p>
             </div>
             <div className="mt-8 text-center">
