@@ -88,7 +88,7 @@ export default function HomePage() {
       </div>
 
       {/* Section 2 — Coming Soon form */}
-      <div className="flex flex-col items-center justify-center px-6 py-20">
+      <div className="flex flex-col items-center justify-center px-6 pt-56 pb-20">
       <div className="w-full max-w-[480px]">
 
         {/* Heading */}
