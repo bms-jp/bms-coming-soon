@@ -221,7 +221,7 @@ export default function HomePage() {
           className="mt-12 text-center text-[12px] animate-fade-in"
           style={{ color: '#ccc', animationDelay: '0.4s' }}
         >
-          BMS
+          © BMS
         </p>
       </div>
     </div>
