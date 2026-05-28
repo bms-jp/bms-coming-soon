@@ -80,7 +80,7 @@ export default function HomePage() {
           <p
             style={{
               fontSize: 'clamp(16px, 3vw, 20px)',
-              color: '#999',
+              color: '#0a0a0a',
               letterSpacing: '-0.5px',
               marginTop: '6px',
             }}
