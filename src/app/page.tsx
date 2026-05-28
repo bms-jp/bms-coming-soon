@@ -197,12 +197,19 @@ export default function HomePage() {
         </div>
 
         {/* Footer */}
-        <p
-          className="mt-12 text-center text-[12px] animate-fade-in"
-          style={{ color: '#ccc', animationDelay: '0.4s' }}
+        <div
+          className="mt-12 text-center animate-fade-in"
+          style={{ animationDelay: '0.4s' }}
         >
-          © BMS
-        </p>
+          <p className="text-[12px]" style={{ color: '#ccc' }}>© BMS</p>
+          <a
+            href="/privacy"
+            className="inline-block mt-2 text-[11px] transition-colors duration-150 hover:text-[#888]"
+            style={{ color: '#ccc' }}
+          >
+            プライバシーポリシー
+          </a>
+        </div>
       </div>
     </div>
   )
