@@ -63,22 +63,23 @@ export default function HomePage() {
   return (
     <div className="bg-white">
 
-      {/* Section 1 — BMS badge full screen */}
-      <div className="h-screen flex items-center justify-center animate-fade-in">
+      {/* Section 1 — BMS badge */}
+      <div className="h-[50vh] flex items-center justify-center animate-fade-in">
         <div
           className="flex items-center justify-center rounded-full"
           style={{
-            width: 180,
-            height: 180,
+            width: 260,
+            height: 260,
             background: '#1e3a8a',
           }}
         >
           <span
             style={{
               color: '#fff',
-              fontWeight: 700,
-              fontSize: 52,
-              letterSpacing: '-1px',
+              fontWeight: 800,
+              fontSize: 80,
+              letterSpacing: '-2px',
+              lineHeight: 1,
             }}
           >
             BMS
