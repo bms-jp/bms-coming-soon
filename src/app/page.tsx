@@ -94,7 +94,7 @@ export default function HomePage() {
           className="mb-12 text-[15px] animate-fade-in-up"
           style={{ color: '#999', letterSpacing: '0.02em', animationDelay: '0.18s' }}
         >
-          Launching Summer 2026
+          2026年夏 ローンチ予定
         </p>
 
         {/* Registration card */}
