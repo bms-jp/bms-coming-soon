@@ -64,24 +64,6 @@ export default function HomePage() {
     <div className="min-h-screen bg-white flex flex-col items-center justify-center px-6 py-20">
       <div className="w-full max-w-[480px]">
 
-        {/* Badge */}
-        <div className="mb-10 animate-fade-in" style={{ animationDelay: '0.05s' }}>
-          <span
-            className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-[11px] font-medium tracking-widest uppercase"
-            style={{
-              background: '#f5f5f5',
-              color: '#888',
-              border: '1px solid #e8e8e8',
-            }}
-          >
-            <span
-              className="h-[5px] w-[5px] rounded-full"
-              style={{ background: '#bbb' }}
-            />
-            業務自動化マーケットプレイス — 2026年夏 ローンチ予定
-          </span>
-        </div>
-
         {/* Heading */}
         <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
           <h1
