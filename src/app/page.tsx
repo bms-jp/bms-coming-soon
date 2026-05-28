@@ -64,7 +64,7 @@ export default function HomePage() {
     <div className="bg-white">
 
       {/* Section 1 — BMS badge */}
-      <div className="h-[50vh] flex items-center justify-center animate-fade-in">
+      <div className="h-[50vh] flex items-end justify-center pb-8 animate-fade-in">
         <div
           className="flex items-center justify-center rounded-full"
           style={{
