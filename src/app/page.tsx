@@ -89,15 +89,13 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* Sub messages */}
-        <div className="mb-12 animate-fade-in-up" style={{ animationDelay: '0.18s' }}>
-          <p className="text-[16px] leading-[1.7] mb-1" style={{ color: '#444' }}>
-            任せるほど、ROIが上がる。任せるほど、会社が賢くなる。
-          </p>
-          <p className="text-[14px]" style={{ color: '#999' }}>
-            公開前の先行アクセス登録を受付中です。
-          </p>
-        </div>
+        {/* Launch date */}
+        <p
+          className="mb-12 text-[15px] animate-fade-in-up"
+          style={{ color: '#999', letterSpacing: '0.02em', animationDelay: '0.18s' }}
+        >
+          Launching Summer 2026
+        </p>
 
         {/* Registration card */}
         <div
