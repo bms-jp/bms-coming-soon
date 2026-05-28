@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function PrivacyPage() {
   return (
     <div className="min-h-screen bg-white px-6 py-20">
@@ -100,7 +102,7 @@ export default function PrivacyPage() {
               第8条（お問い合わせ窓口）
             </h2>
             <p>
-              本ポリシーに関するお問い合わせ、および前条の各種請求については、お問い合わせフォームよりご連絡ください。
+              本ポリシーに関するお問い合わせ、および前条の各種請求については、<Link href="/contact" style={{ color: '#2563eb', textDecoration: 'underline' }}>お問い合わせフォーム</Link>よりご連絡ください。
             </p>
           </section>
 
