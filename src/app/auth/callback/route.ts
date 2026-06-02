@@ -28,6 +28,8 @@ export async function GET(request: NextRequest) {
   // Step 2: Upsert profile using service_role key (bypasses RLS)
   // Conflict on email: Google auth user may already exist as provider=email
   const admin = createAdminClient()
+  const role = searchParams.get('role') ?? undefined
+
   const { error: upsertError } = await admin.from('profiles').upsert(
     {
       id: user.id,
@@ -39,6 +41,7 @@ export async function GET(request: NextRequest) {
         '',
       provider: 'google',
       status: 'pending',
+      ...(role ? { role } : {}),
     },
     { onConflict: 'email' }
   )
