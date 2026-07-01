@@ -112,7 +112,7 @@ export default function HomePage() {
     <div className="bg-white">
 
       {/* Section 1 — Makasel logo */}
-      <div className="h-[55vh] flex items-center justify-center">
+      <div className="h-[45vh] flex items-center justify-center">
         <div className="flex items-center justify-center animate-logo-emerge">
           <span
             style={{
