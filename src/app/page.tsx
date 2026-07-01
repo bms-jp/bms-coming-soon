@@ -112,19 +112,13 @@ export default function HomePage() {
     <div className="bg-white">
 
       {/* Section 1 — Makasel logo */}
-      <div className="h-[45vh] flex items-center justify-center">
-        <div className="flex items-center justify-center animate-logo-emerge" style={{ marginTop: 'clamp(72px, 20vw, 104px)' }}>
-          <span
-            style={{
-              color: '#1e3a8a',
-              fontWeight: 800,
-              fontSize: 'clamp(72px, 20vw, 104px)',
-              letterSpacing: '-3px',
-              lineHeight: 1,
-            }}
-          >
-            Makasel
-          </span>
+      <div className="h-[50vh] flex items-center justify-center">
+        <div className="animate-logo-emerge" style={{ marginTop: 'clamp(40px, 8vw, 72px)' }}>
+          <img
+            src="/makasel-logo.png"
+            alt="Makasel"
+            style={{ width: 'clamp(160px, 35vw, 280px)', height: 'auto' }}
+          />
         </div>
       </div>
 
