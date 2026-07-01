@@ -113,7 +113,7 @@ export default function HomePage() {
 
       {/* Section 1 — Makasel logo */}
       <div className="h-[45vh] flex items-center justify-center">
-        <div className="flex items-center justify-center animate-logo-emerge">
+        <div className="flex items-center justify-center animate-logo-emerge" style={{ marginTop: 'clamp(72px, 20vw, 104px)' }}>
           <span
             style={{
               color: '#1e3a8a',
