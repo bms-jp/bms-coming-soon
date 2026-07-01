@@ -111,22 +111,19 @@ export default function HomePage() {
   return (
     <div className="bg-white">
 
-      {/* Section 1 — BMS badge */}
+      {/* Section 1 — Makasel logo */}
       <div className="h-[62vh] flex items-end justify-center pb-0">
-        <div
-          className="flex items-center justify-center rounded-full animate-logo-emerge w-[240px] h-[240px] sm:w-[340px] sm:h-[340px]"
-          style={{ background: '#1e3a8a' }}
-        >
+        <div className="flex items-center justify-center animate-logo-emerge">
           <span
             style={{
-              color: '#fff',
+              color: '#1e3a8a',
               fontWeight: 800,
               fontSize: 'clamp(72px, 20vw, 104px)',
               letterSpacing: '-3px',
               lineHeight: 1,
             }}
           >
-            BMS
+            Makasel
           </span>
         </div>
       </div>
