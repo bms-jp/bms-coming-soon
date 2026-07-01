@@ -117,7 +117,7 @@ export default function HomePage() {
           <img
             src="/makasel-logo.png"
             alt="Makasel"
-            style={{ width: 'clamp(160px, 35vw, 280px)', height: 'auto' }}
+            style={{ width: 'clamp(220px, 50vw, 380px)', height: 'auto', mixBlendMode: 'multiply' }}
           />
         </div>
       </div>
