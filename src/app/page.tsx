@@ -112,7 +112,7 @@ export default function HomePage() {
     <div className="bg-white">
 
       {/* Section 1 — Makasel logo */}
-      <div className="h-[62vh] flex items-end justify-center pb-0">
+      <div className="h-[55vh] flex items-center justify-center">
         <div className="flex items-center justify-center animate-logo-emerge">
           <span
             style={{
@@ -133,7 +133,7 @@ export default function HomePage() {
       <div className="w-full max-w-[480px]">
 
         {/* Heading */}
-        <div className="mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+        <div className="mb-6 animate-fade-in-up text-center" style={{ animationDelay: '0.1s' }}>
           <h1
             style={{
               fontSize: 'clamp(48px, 10vw, 72px)',
@@ -158,7 +158,7 @@ export default function HomePage() {
 
         {/* Launch date */}
         <p
-          className="mb-12 text-[15px] animate-fade-in-up"
+          className="mb-12 text-[15px] animate-fade-in-up text-center"
           style={{ color: '#999', letterSpacing: '0.02em', animationDelay: '0.18s' }}
         >
           2026年夏 ローンチ予定
